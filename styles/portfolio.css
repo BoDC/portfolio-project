@@ -1,5 +1,31 @@
-h1 {
-  color: cadetblue;
-  font-style: bold;
-  font-family: "Abel", sans-serif;
+body {
+  background: #d5dde1;
+}
+
+.hero {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  color: #d5dde1;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 20px 32px;
 }
