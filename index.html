@@ -12,39 +12,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/69443d4e91.js" crossorigin="anonymous"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"
-  ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="hero">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bo De Corte</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-           </ul>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo_large.png" class="logo" alt="logo" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 <h1>Hi, I'm Bo.</h1>
 <h2>Aspiring front-end developer based in Belgium.</h2>
-<a href="#" class="btn btn-outline-dark">My projects</a>
+<button type="button" class="btn btn-outline-dark">My projects</button>
 </div>
+
+<div class="container mt-5">
+    
+    <div class="row">
+       
+        <div class="col-md-6">
+            <div class="languages text-center">
+            <i class="fas fa-laptop-code"></i>
+            
+            <h3>Languages and Dev Tools</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="col-md-6"> 
+            <div class="design text-center">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Tools and Design</h3>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>CodeSandbox</li>
+                <li>Netlify</li>
+                <li>GitHub</li>
+                <li>Figma</li>
+                <li>Invision</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+<h2 class=" project mt-5 text-center">Projects</h2>
+<div class="container mt-5"> 
+<div class="row">
+  <div class="col-6">
+    <img src="/images/weather.png" class="img-fluid rounded shadow-sm" />
+  </div>
+    <div class="col-6">
+      <h2 class="text-start">Weather Project</h2>
+      <p class="text-start">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+        eos eveniet alias temporibus deserunt veritatis minima fugiat
+        explicabo eum dolore.
+      </p>
+    <div>
+        <a href="https://distracted-kare-88f788.netlify.app/" target="blank" class="btn-weather shadow-sm">
+          Launch Weather Project  
+        </a>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

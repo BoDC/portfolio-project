@@ -1,31 +1,125 @@
+:root {
+  --primary-color: #90acb9;
+  --secondary-color: white;
+}
+
 body {
-  background: #d5dde1;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+
+  background-image: -webkit-linear-gradient(
+    100deg,
+    var(--secondary-color) 50%,
+    var(--primary-color) 50%
+  );
+  min-height: 400px;
 }
 
 .hero {
-  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-.navbar {
-  color: #d5dde1;
+.logo {
+  max-height: 30px;
 }
 
 .hero h1 {
   font-size: 70px;
   font-weight: bold;
-  margin-top: 100px;
-  margin-left: 50px;
+  margin-top: 200px;
+
+  color: var(--secondary-color);
 }
 
 .hero h2 {
   font-size: 40px;
-  margin-left: 50px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  padding: 20px;
 }
 
 .btn {
-  margin-top: 20px;
-  margin-left: 50px;
-  border-radius: 50px;
   font-size: 20px;
-  padding: 20px 32px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  margin-left: 50px;
+  border-radius: 30px;
+  padding: 15px 32px;
+  border: 2px solid #212529;
+}
+
+.languages {
+  border: 1px solid var(--secondary-color);
+  padding: 40px 0px;
+  border-radius: 6px;
+  border: 1px solid #e6ecf8;
+  background-color: var(--secondary-color);
+}
+
+.languages h3 {
+  font-weight: bold;
+  padding: 10px;
+  color: #212529;
+}
+
+.design {
+  border: 1px solid var(--secondary-color);
+  padding: 40px 0px;
+  border-radius: 6px;
+  border: 1px solid #e6ecf8;
+  background-color: var(--secondary-color);
+}
+
+.design h3 {
+  font-weight: bold;
+  padding: 10px;
+  color: #212529;
+}
+
+i {
+  font-size: 35px;
+  color: var(--primary-color);
+}
+
+.languages ul {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.design ul {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+li {
+  padding: 10px;
+}
+
+.project {
+  color: #212529;
+  font-weight: bold;
+}
+
+img {
+  max-height: 400px;
+}
+
+.btn-weather {
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: 1s ease-in-out;
+}
+
+.btn-weather:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
 }
