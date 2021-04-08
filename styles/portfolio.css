@@ -6,7 +6,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--primary-color);
-
   background-image: -webkit-linear-gradient(
     100deg,
     var(--secondary-color) 50%,
@@ -45,7 +44,6 @@ body {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 200px;
-  margin-left: 50px;
   border-radius: 30px;
   padding: 15px 32px;
   border: 2px solid #212529;
@@ -101,8 +99,12 @@ li {
 .project {
   color: #212529;
   font-weight: bold;
+  font-size: 40px;
 }
 
+h2 {
+  font-weight: 500;
+}
 img {
   max-height: 400px;
 }
@@ -122,4 +124,18 @@ img {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .project-description {
+    text-align: center;
+  }
 }
