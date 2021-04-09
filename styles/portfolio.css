@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #90acb9;
   --secondary-color: white;
   --default-color: #ea9a96;
+  --primary-color: #90acb9;
+  --primary-color: #8a9ea7;
 }
 
 body {
@@ -43,6 +44,10 @@ body {
 .nav-item {
   padding: 20px;
   text-align: right;
+}
+
+.active {
+  color: var(--default-color) !important;
 }
 
 .btn {
