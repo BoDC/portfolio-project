@@ -12,7 +12,7 @@ body {
 .index {
   background-color: var(--primary-color);
   background-image: -webkit-linear-gradient(
-    100deg,
+    110deg,
     var(--secondary-color) 50%,
     var(--primary-color) 50%
   );
@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-  max-height: 25px;
+  max-height: 30px;
 }
 
 .hero h1 {
@@ -58,13 +58,15 @@ body {
   margin-bottom: 200px;
   border-radius: 30px;
   padding: 15px 32px;
-  color: var(--default-color);
+  color: var(--secondary-color);
+  background-color: var(--default-color);
   border: 3px solid var(--default-color);
 }
 
 .btn:hover {
-  background-color: var(--default-color);
+  background-color: var(--primary-color);
   border: 3px solid var(--default-color);
+  color: var(--default-color);
 }
 
 .languages {
@@ -112,6 +114,7 @@ i {
 
 li {
   padding: 10px;
+  list-style: none;
 }
 
 .project {
@@ -155,11 +158,27 @@ img {
   cursor: pointer;
 }
 
-.github {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  color: black;
+.mail {
+  text-decoration: none;
+  color: #212529;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.social .fab {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.social .fab:hover {
+  background-color: var(--default-color);
+  color: white;
+}
+
+a {
   text-decoration: none;
 }
 
