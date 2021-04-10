@@ -149,13 +149,44 @@ img {
   color: var(--secondary-color);
   border: 2px solid var(--default-color);
   transition: 15ms ease-in-out;
+  margin-bottom: 100px;
 }
 
 .btn-weather:hover {
+  cursor: pointer;
   background-color: var(--secondary-color);
   color: var(--default-color);
   border: 2px solid var(--default-color);
+}
+
+.btn-contact {
+  background-color: var(--default-color);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px 30px;
+  font-size: 20px;
+  color: var(--secondary-color);
+  border: 2px solid var(--default-color);
+  transition: 15ms ease-in-out;
+  margin-left: 60px;
+}
+
+.btn-contact:hover {
   cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--default-color);
+  border: 2px solid var(--default-color);
+}
+
+.contact {
+  background-color: var(--primary-color);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h4 {
+  color: var(--secondary-color);
 }
 
 .mail {
@@ -163,6 +194,12 @@ img {
   color: #212529;
   font-size: 20px;
   margin-top: 40px;
+}
+
+.mail:hover {
+  color: #212529;
+  cursor: pointer;
+  font-size: 23px;
 }
 
 .social .fab {
@@ -193,6 +230,20 @@ a {
 
   .project-description {
     text-align: center;
+  }
+
+  .contact {
+    padding: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .btn-contact {
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
