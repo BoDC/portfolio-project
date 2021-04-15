@@ -1,8 +1,7 @@
 :root {
   --secondary-color: white;
   --default-color: #ea9a96;
-  --primary-color: #90acb9;
-  --primary-color: #8a9ea7;
+  --primary-color: #93abd3;
 }
 
 body {
@@ -238,6 +237,7 @@ a {
 
   h4 {
     font-size: 20px;
+    margin-top: 20px;
   }
 
   .btn-contact {
@@ -247,38 +247,45 @@ a {
   }
 }
 
-.btn-project {
+.about-page {
   background-color: var(--primary-color);
-  text-decoration: none;
-  text-align: center;
-  border-radius: 30px;
-  padding: 10px 20px;
-  font-size: 15px;
-  color: var(--secondary-color);
-  border: 2px solid var(--primary-color);
-  transition: 15ms ease-in-out;
-  margin-left: 40px;
-}
-
-.btn-project:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  cursor: pointer;
 }
 
 .name {
   margin-top: 50px;
   font-size: 50px;
   margin-left: 40px;
+  color: var(--secondary-color);
 }
 
 .country {
   font-size: 30px;
   margin-left: 40px;
+  color: var(--secondary-color);
 }
 
 .info {
   margin-left: 40px;
   margin-bottom: 40px;
+}
+
+.btn-weather-about-page {
+  background-color: var(--default-color);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: var(--secondary-color);
+  border: 2px solid var(--default-color);
+  transition: 15ms ease-in-out;
+  margin-bottom: 100px;
+  margin-left: 40px;
+}
+
+.btn-weather-about-page:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--default-color);
+  border: 2px solid var(--default-color);
 }
