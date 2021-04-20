@@ -300,18 +300,16 @@ a {
 
 .navbar-nav {
   margin-left: auto;
+  font-size: 18px;
+}
+
+.nav-item {
+  padding-right: 50px;
 }
 
 @media (min-width: 900px) {
-  .nav-item {
-    font-size: 17px;
-    padding: 15px 16px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .nav-item:hover {
-    border-bottom: 2px solid black;
+  .active:hover {
+    border-bottom: 2px solid var(--default-color);
     transition: 0s;
   }
 }
