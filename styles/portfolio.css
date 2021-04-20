@@ -297,3 +297,21 @@ a {
 .link {
   font-size: 12px;
 }
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+@media (min-width: 900px) {
+  .nav-item {
+    font-size: 17px;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .nav-item:hover {
+    border-bottom: 2px solid black;
+    transition: 0s;
+  }
+}
