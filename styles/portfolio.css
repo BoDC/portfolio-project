@@ -30,19 +30,15 @@ body {
   font-size: 70px;
   font-weight: bold;
   margin-top: 200px;
-
   color: var(--secondary-color);
+
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 .hero h2 {
   font-size: 40px;
   color: var(--secondary-color);
   margin-bottom: 20px;
-}
-
-.nav-item {
-  padding: 20px;
-  text-align: right;
 }
 
 .active {
@@ -245,6 +241,16 @@ a {
     display: block;
     margin: 0 auto;
   }
+
+  .about-me {
+    text-align: center;
+  }
+
+  .picture {
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+  }
 }
 
 .about-page {
@@ -254,19 +260,12 @@ a {
 .name {
   margin-top: 50px;
   font-size: 50px;
-  margin-left: 40px;
   color: var(--secondary-color);
 }
 
 .country {
-  font-size: 30px;
-  margin-left: 40px;
+  font-size: 20px;
   color: var(--secondary-color);
-}
-
-.info {
-  margin-left: 40px;
-  margin-bottom: 40px;
 }
 
 .btn-weather-about-page {
@@ -280,7 +279,6 @@ a {
   border: 2px solid var(--default-color);
   transition: 15ms ease-in-out;
   margin-bottom: 100px;
-  margin-left: 40px;
 }
 
 .btn-weather-about-page:hover {
@@ -288,4 +286,8 @@ a {
   background-color: var(--primary-color);
   color: var(--default-color);
   border: 2px solid var(--default-color);
+}
+
+.picture {
+  border-radius: 20px;
 }
